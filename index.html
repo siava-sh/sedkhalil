@@ -1,0 +1,49 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#030807">
+  <meta name="description" content="Dance of Union (سماع وصل), a musical memorial honoring Seyed Khalil Alinejad (سید خلیل عالی‌نژاد), the Kurdish tanbur master. یادبودی موسیقایی برای سید خلیل عالی‌نژاد، استاد تنبور و موسیقی عرفانی کردی.">
+  <meta name="keywords" content="Dance of Union, سماع وصل, Seyed Khalil Alinejad, سید خلیل عالی‌نژاد, Khalil Alinejad, خلیل عالی‌نژاد, Kurdish music, موسیقی کردی, tanbur, تنبور, Sufi music, موسیقی عرفانی">
+
+  <title> 🔥 سماع وصل 🪾</title>
+  
+  <link rel="stylesheet" href="style.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <main id="monument">
+    <header class="heading">
+      <!-- <p class="eyebrow">A MUSICAL MEMORIAL</p> -->
+      <!-- <h1>Dance of Union</h1>
+      <p class="subtitle" lang="fa">سماع وصل</p> -->
+    </header>
+
+    <section class="player" aria-label="Album player">
+      <p id="track-number">TRACK 01 / 22</p>
+      <h2 id="track-title" lang="fa" dir="rtl">مست و دیوانه</h2>
+
+      <div class="timeline">
+        <span id="current-time">0:00</span>
+        <input id="seek" type="range" min="0" max="1000" value="0"
+               aria-label="Track position">
+        <span id="duration">0:00</span>
+      </div>
+
+      <div class="controls">
+        <button id="previous" type="button" aria-label="Previous track">⏮</button>
+        <button id="play" class="play-button" type="button" aria-label="Play">▶</button>
+        <button id="next" type="button" aria-label="Next track">⏭</button>
+      </div>
+
+      <p id="status" aria-live="polite">Enter the silence.</p>
+      <audio id="audio" preload="metadata"></audio>
+    </section>
+
+    <footer>Made with <span class="author">  🩸 </span>  by <a class="author" href="https://zaya.io/yeklink/siavash">Siavash</a>
+    <a href="https://www.youtube.com/watch?v=_lrmtjkf1uY"> | Source |  </a></footer>
+  </main>
+</body>
+</html>
